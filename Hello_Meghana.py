@@ -1,30 +1,30 @@
 #%%
-print("Hello world")
-print(5 / 8)
+print("Hello Meghana")
+print(7 / 11)
 print (7+10)
-print(10/3, 3/10) # print numerical divisions
-print(10//3, 3//10) # print quotients from divisions
-print(10%3, 3%10) # print remainders from divisions
+print(9/2, 2/9) # print numerical divisions
+print(9//2, 2//9) # print quotients from divisions
+print(9%2, 2%9) # print remainders from divisions
 
 #%%
-astring = "Thank you"
+astring = "Good Morning"
 anum = 3.14159265358979323846
 cnt = 1
 # Many different ways to print out the same line
-print("%d. I want to say %s" % (cnt,astring) )
+print("%d. I wish you a very %s" % (cnt,astring) )
 cnt+=1
-print(cnt,". I want to say" + astring )
+print(cnt,". I wish you a very " + astring )
 cnt+=1
-print(cnt, ". I want to say",astring )
+print(cnt, ". I wish you a very",astring )
 cnt+=1
-print("%d. I want to say %s, my sweetie %.3f" % (cnt,astring,anum) )
+print("%d. I wish you a very %s, my sweetie %.3f" % (cnt,astring,anum) )
 cnt+=1
-print("%d. I want to say %s, my sweetie digit %d" % (cnt,astring,anum) )
+print("%d. I wish you a very %s, my sweetie digit %d" % (cnt,astring,anum) )
 cnt+=1
-print("%d. I want to say %s, my sweetie long %f" % (cnt,astring,anum) )
+print("%d. I wish you a very %s, my sweetie long %f" % (cnt,astring,anum) )
 cnt+=1
 # For python 3.6+, we can use the f-string
-print(f"{cnt}. I want to say {astring}, my sweetie long {anum.__round__(3)}")
+print(f"{cnt}. I wish you a very {astring}, my sweetie long {anum.__round__(3)}")
 cnt+=1
 # see https://python-reference.readthedocs.io/en/latest/docs/str/formatting.html
 # s-string, d-digit (int), f-float

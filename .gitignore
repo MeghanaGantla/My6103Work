@@ -1,3 +1,12 @@
+# ignore library files
+*.lib
+
+# Ignore text files
+*.txt
+
+# Ignore SASS config files
+.sass-cache
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
