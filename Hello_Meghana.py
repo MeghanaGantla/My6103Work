@@ -1,7 +1,7 @@
 #%%
 print("Hello Meghana")
 print(7 / 11)
-print (7+10)
+print (5+11)
 print(9/2, 2/9) # print numerical divisions
 print(9//2, 2//9) # print quotients from divisions
 print(9%2, 2%9) # print remainders from divisions
